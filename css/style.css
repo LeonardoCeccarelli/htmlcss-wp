@@ -13,10 +13,9 @@ header {
 }
 
 footer {
-    height: 80px;
-    background-color: rgb(121, 44, 151);
-    margin: 15px auto 15px;
+    margin: 15px auto 20px;
     width: 920px;
+    text-align: center;
 }
 
 /* Selettori avanzati */
@@ -41,6 +40,15 @@ header a {
     text-decoration: none;
     color: gray;
     padding: 7px 10px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer span {
+    font-size: 30px;
+    color: red;
 }
 
 /* Sezione classi */
